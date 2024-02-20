@@ -1,3 +1,4 @@
+-- 1
 CREATE TABLE Admission
 (
     No         INT PRIMARY KEY,
@@ -18,16 +19,20 @@ VALUES (1, 'Pankaj', 24, 'Computer', '2002-10-12', 120, 'M'),
        (6, 'Shakeel', 30, 'History', '2016-01-03', 300, 'M'),
        (7, 'Surya', 34, 'Computer', '2013-03-30', 210, 'M');
 
+-- 2
 UPDATE Admission
 SET Age = 27
 WHERE Name = 'Pankaj';
 
+-- 3
 UPDATE Admission
 SET Fee = 425
 WHERE No = 3;
 
+-- 4
 ALTER TABLE Admission
     ADD City VARCHAR(15);
 
+-- 5
 ALTER TABLE Admission
     DROP City;
