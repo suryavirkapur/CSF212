@@ -38,7 +38,6 @@ ALTER TABLE Admission
 ALTER TABLE Admission
     DROP City;
 
-
 -- Q2
 CREATE TABLE pet
 (
